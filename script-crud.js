@@ -49,7 +49,7 @@ function criarElementoTarefa(tarefa) {
     };
 
     const imagemBotao = document.createElement('img');
-    imagemBotao.setAttribute('src', './imagens/edit.png'); // Caminho corrigido
+    imagemBotao.setAttribute('src', 'imagens/edit.png'); // Caminho corrigido
     botao.append(imagemBotao);
 
     li.append(svg, paragrafo, botao);
